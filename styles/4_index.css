@@ -1,0 +1,139 @@
+.main-div {
+  background-image: url('../assets/UI/pexels-pixabay-262713.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-color: green;
+  min-height: calc(100vh - 80px - 20px);
+  object-fit: fill;
+}
+
+#index-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 121px;
+  color: rgba(32, 150, 110, 0.89);
+  text-align: left;
+  padding: 10px;
+}
+
+#index-button {
+  font-family: 'Inter';
+  font-size: 30px;
+  color: #fff;
+}
+
+button i {
+  color: white;
+  font-weight: 100;
+  transition: transform 0.5s;
+}
+
+button:hover i {
+  transform: translateX(8px);
+}
+
+button {
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: rgb(14, 175, 122);
+}
+
+button a {
+  color: #fff;
+}
+
+button i {
+  color: white;
+  font-weight: 100;
+  transition: transform 0.5s;
+}
+
+button:hover i {
+  transform: translateX(8px);
+}
+
+button {
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: rgb(14, 175, 122);
+}
+
+button a {
+  color: #fff;
+}
+
+/* .button-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 37px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+} */
+
+/* .button-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 37px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+} */
+
+/* .index-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #ccc;
+  text-decoration: none;
+  color: #000;
+} */
+
+.button-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 37px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.index-button i {
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 720px) {
+  #index-title {
+    font-size: 150px;
+    padding: 60px 30px 60px 30px;
+  }
+
+  .button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 57px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button-container {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .button-container {
+    margin-top: 300px;
+  }
+}

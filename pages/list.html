@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List of Gods</title>
+    <link rel="stylesheet" href="../styles/1_resets.css" />
+    <link rel="stylesheet" href="../styles/2_variables.css" />
+    <link rel="stylesheet" href="../styles/3_header.css" />
+    <link rel="stylesheet" href="../styles/4_list.css" />
+    <link rel="stylesheet" href="../styles/5_footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="../scripts/header.js"></script>
+    <script defer src="../scripts/list.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="../index.html">
+          <div class="logo"><img src="../assets/UI/logo.png" alt="logo" /></div
+        ></a>
+        <i class="fa-solid fa-bars" id="bars"></i>
+        <nav id="menu" class="menu-container">
+          <a href="../index.html" class="menu-item">Main</a>
+          <a id="list-button" href="#" class="menu-item"
+            >List <i class="fa-solid fa-arrow-up" id="arrow"></i
+          ></a>
+          <div id="menu-list-gods"></div>
+          <a href="./game.html" class="game-link menu-item">Game</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="section">
+        <div id="list-container"></div>
+      </section>
+    </main>
+    <footer>
+      <footer>
+        <div class="footer-grass"></div>
+        <div class="footer-div"></div>
+      </footer>
+    </footer>
+  </body>
+</html>

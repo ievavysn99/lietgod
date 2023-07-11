@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Austėja",
+    "link": "./austeja.html",
+    "link2": "./pages/austeja.html",
+    "occupation": "Bees"
+  },
+  {
+    "name": "Aušrinė",
+    "link": "./ausrine.html",
+    "link2": "./pages/ausrine.html",
+    "occupation": "Morning Star"
+  },
+  {
+    "name": "Blizgulis",
+    "link": "./blizgulis.html",
+    "link2": "./pages/blizgulis.html",
+    "occupation": "Snow"
+  },
+  {
+    "name": "Gabija",
+    "link": "./gabija.html",
+    "link2": "./pages/gabija.html",
+    "occupation": "Fire"
+  },
+  {
+    "name": "Javinė",
+    "link": "./javine.html",
+    "link2": "./pages/javine.html",
+    "occupation": "Wheat"
+  },
+  {
+    "name": "Laima",
+    "link": "./laima.html",
+    "link2": "./pages/laima.html",
+    "occupation": "Luck and destiny"
+  },
+  {
+    "name": "Lietuvonis",
+    "link": "./lietuvonis.html",
+    "link2": "./pages/lietuvonis.html",
+    "occupation": "Rain"
+  },
+  {
+    "name": "Medeina",
+    "link": "./medeina.html",
+    "link2": "./pages/medeina.html",
+    "occupation": "Forests"
+  },
+  {
+    "name": "Milda",
+    "link": "./milda.html",
+    "link2": "./pages/milda.html",
+    "occupation": "Love"
+  },
+  {
+    "name": "Mėnulis",
+    "link": "./menulis.html",
+    "link2": "./pages/menulis.html",
+    "occupation": "Moon"
+  },
+  {
+    "name": "Perkūnas",
+    "link": "./perkunas.html",
+    "link2": "./pages/perkunas.html",
+    "occupation": "Thunder"
+  },
+  {
+    "name": "Pizius and Gundas",
+    "link": "./pizius-and-gundas.html",
+    "link2": "./pages/pizius-and-gundas.html",
+    "occupation": "Intimacy"
+  },
+  {
+    "name": "Saulė",
+    "link": "./saule.html",
+    "link2": "./pages/saule.html",
+    "occupation": "Sun"
+  },
+  {
+    "name": "Zuikių dievas",
+    "link": "./zuikiu-dievas.html",
+    "link2": "./pages/zuikiu-dievas.html",
+    "occupation": "Rabbits"
+  },
+  {
+    "name": "Žemyna",
+    "link": "./zemyna.html",
+    "link2": "./pages/zemyna.html",
+    "occupation": "Earth"
+  },
+  {
+    "name": "Žvorūna",
+    "link": "./zvoruna.html",
+    "link2": "./pages/zvoruna.html",
+    "occupation": "Animals and hunting"
+  }
+]

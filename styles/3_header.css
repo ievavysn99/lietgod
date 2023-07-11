@@ -1,0 +1,155 @@
+header {
+  height: 80px;
+  background-color: var(--accent-color);
+  background-position: center;
+  position: relative;
+}
+
+.header-container {
+  width: 90%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+}
+
+/* .logo {
+  align-self: center;
+} */
+
+.fa-bars {
+  position: absolute;
+  top: 56px;
+  left: 100%;
+  transform: translate(-90%, -100%);
+  font-size: 32px;
+  color: var(--background-color);
+  cursor: pointer;
+}
+
+.logo img {
+  height: 80px;
+  object-fit: contain;
+  padding: 5px;
+}
+
+.menu-container {
+  position: absolute;
+  top: 80px;
+  right: -5%;
+  width: 380px;
+  background-color: var(--secondary-background-color);
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0; */
+  border: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+  border-radius: 20px;
+  padding: 0;
+  border: none;
+}
+
+.menu-container.show {
+  max-height: 1000px;
+  /* padding: 10px; */
+  /* border: 1px solid black; */
+}
+
+.menu-item:hover {
+  text-decoration: underline 2px;
+}
+
+#list-button {
+  /* border-bottom: 1px solid var(--accent-color); */
+  border-top: 1px solid var(--text-color);
+}
+
+/* #menu-list {
+  border-bottom: 1px solid var(--accent-color);
+  transition: max-height 0.3s ease-in-out;
+} */
+
+.game-link {
+  border-top: 1px solid var(--text-color);
+}
+
+#menu-list,
+#menu-list-gods {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+#menu-list.show,
+#menu-list-gods.show {
+  max-height: 752px;
+  border-bottom: none;
+}
+
+li {
+  list-style: none;
+  font-size: 30px;
+}
+
+li:hover {
+  background-color: var(--accent-color);
+  border-radius: 15px;
+}
+
+#arrow {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 720px) {
+  li {
+    padding: 4px;
+  }
+  .menu-container {
+    width: 600px;
+  }
+  #menu-list,
+  #menu-list-gods {
+    /* max-height: 408px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    transition: max-height 0.4s ease-in-out;
+  }
+  #menu-list.show,
+  #menu-list-gods.show {
+    max-height: 488px;
+  }
+
+  .fa-bars {
+    transform: translate(-200%, -100%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  li {
+    padding: 6px;
+  }
+  .menu-container {
+    width: 800px;
+  }
+  #menu-list,
+  #menu-list-gods {
+    grid-template-columns: 1fr 1fr 1fr;
+    transition: max-height 0.3s ease-in-out;
+  }
+  #menu-list.show,
+  #menu-list-gods.show {
+    max-height: 431px;
+  }
+  .fa-bars {
+    transform: translate(-400%, -100%);
+  }
+}

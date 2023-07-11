@@ -1,0 +1,39 @@
+footer {
+  overflow: hidden;
+  /* overflow-y: visible; */
+}
+
+.footer-div {
+  height: 20px;
+  background-color: var(--accent-color);
+}
+
+.footer-grass {
+  background-image: url(../assets/UI/grass3.png);
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  height: 150px;
+}
+
+/* .footer-grass {
+
+  height: 80px; 
+  overflow-x: auto; 
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.footer-grass img {
+
+  height: 100%; 
+  width: auto; 
+} */
+
+/* @media screen and (min-width: 1024px) {
+  .footer-grass img {
+    max-width: 100%;
+    min-width: 2000px;
+    max-height: 130px;
+    object-fit: cover;
+  }
+} */
